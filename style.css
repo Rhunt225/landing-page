@@ -72,9 +72,10 @@ html, body{
       text-align: center;
       font-size: 18px
     }
-    .lilly{
-      width: 25%;
-      height: auto;
-      margin: 0px 15px 0px 15px
+    @media (min-width: 1080px) {
+    .photos {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
     }
     }
+       }
