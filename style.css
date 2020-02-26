@@ -1,1 +1,80 @@
-.h1{purple}
+html, body{
+    margin: 0;
+    padding: 0;
+    }
+    * {
+    box-sizing: border-box;
+    }
+    img {
+    width: 100%;
+    height: auto;
+    }
+    .overlay {
+        background: rgba(255, 255, 255, 0.7);
+        width: 95%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 16px 32px;
+        }
+    .logo {
+      width: 70%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    body {
+      font-family: helvetica, arial, sans-serif;
+      color: #ec6a9d;
+      background: url(https://chartreuseflamingo.com/wp-content/uploads/2020/02/56360497_2860616990646992_2465401714274992128_n.jpg);
+      background-size: contain;
+      }
+    h1 {
+      color: #97d129;
+      text-shadow: 2px 1px 5px gray;
+      font-size: 80px;
+      text-align: center;
+      margin: 1px
+    }
+    button{
+      color: white;
+      background: #ec6a9d;
+      border: none;
+      padding: 5px 10px 5px 10px;
+      border-radius: 5px;
+      box-shadow: 2px 1px 5px gray;
+      }
+    button:hover {
+      background: #327bbf;
+      cursor: pointer;
+    }
+    .form-email {
+      background: #64c6e1;
+      padding: 0px 10px 5px 10px;
+      max-width: 310px;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: helvetica, sans-serif;
+    }
+    .button-one{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 45px;
+      }
+    .form-text{
+      color: white;
+      text-align: center;
+      padding: 5px 0px 2px 0px
+    }
+    p{
+      text-align: center;
+      font-size: 18px
+    }
+    .lilly{
+      width: 25%;
+      height: auto;
+      margin: 0px 15px 0px 15px
+    }
+    }
