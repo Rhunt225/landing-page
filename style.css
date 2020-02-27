@@ -11,6 +11,12 @@ html, body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15px;
+    }
+    .hero{
+        margin: 0, auto, 0, auto;
+        width: 100%;
+        height: auto;
     }
     .overlay {
         background: rgba(255, 255, 255, 0.7);
@@ -23,8 +29,7 @@ html, body{
       width: 70%;
       height: auto;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0, auto, 0, auto;
       width: 50%;
     }
     body {
@@ -35,6 +40,8 @@ html, body{
       }
     h1 {
       color: #97d129;
+      font-family: helvetica, arial, sans-serif;
+      font-size: 40px;
       text-shadow: 2px 1px 5px gray;
       text-align: center;
       margin: 1px
@@ -62,6 +69,7 @@ html, body{
       display: block;
       margin-left: auto;
       margin-right: auto;
+      margin-bottom: 15px;
       font-size: 45px;
       }
     .form-text{
@@ -90,4 +98,4 @@ html, body{
         width: 100%;
         height: auto;
     }
-       }
+       
