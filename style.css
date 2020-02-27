@@ -6,8 +6,11 @@ html, body{
     box-sizing: border-box;
     }
     img {
-    width: 100%;
+    width: 80%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
     .overlay {
         background: rgba(255, 255, 255, 0.7);
@@ -33,7 +36,6 @@ html, body{
     h1 {
       color: #97d129;
       text-shadow: 2px 1px 5px gray;
-      font-size: 80px;
       text-align: center;
       margin: 1px
     }
@@ -51,11 +53,10 @@ html, body{
     }
     .form-email {
       background: #64c6e1;
-      padding: 0px 10px 5px 10px;
       max-width: 310px;
-      margin-left: auto;
-      margin-right: auto;
-      font-family: helvetica, sans-serif;
+      padding: 0px 10px 5px 30px;
+      margin: 0 auto;
+      font-family: helvetica, arial, sans-serif;
     }
     .button-one{
       display: block;
@@ -66,16 +67,27 @@ html, body{
     .form-text{
       color: white;
       text-align: center;
-      padding: 5px 0px 2px 0px
+      padding: 5px 0px 2px 0px;
+      font-size: 17px
     }
     p{
       text-align: center;
       font-size: 18px
     }
-    @media (min-width: 1080px) {
-    .photos {
+    @media (min-width: 650px) {
+    .photos, .photos-2 {
           display: grid;
           grid-template-columns: repeat(3, 1fr);
+          margin-top: 20px;
+          width: 100%;
+          height: auto;
     }
+    h1{font-size: 80px;
+    }
+    p{font-size: 25px;}
+       }
+    .hero{
+        width: 100%;
+        height: auto;
     }
        }
