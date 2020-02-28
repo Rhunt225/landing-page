@@ -35,7 +35,7 @@ html, body{
     body {
       font-family: helvetica, arial, sans-serif;
       color: #ec6a9d;
-      background: url(https://chartreuseflamingo.com/wp-content/uploads/2020/02/56360497_2860616990646992_2465401714274992128_n.jpg);
+      background-image: url("back.jpg");
       background-size: contain;
       }
     h1 {
